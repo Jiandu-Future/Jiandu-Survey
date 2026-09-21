@@ -1,50 +1,45 @@
 # Computational Heritage of Ancient Chinese Bamboo and Wooden Slips from Preservation to Intelligent Interpretation
 
-> **Jiandu-Survey** is a living survey and resource hub for computational research on ancient Chinese bamboo and wooden slips (簡牘 / 简牍), spanning **preservation, documentation, recovery, recognition, reconstruction, and intelligent interpretation**.
+> **Jiandu-Survey** is a living survey and companion resource for computational research on ancient Chinese bamboo and wooden slips (簡牘 / 简牍), spanning **preservation, documentation, recovery, recognition, reconstruction, and intelligent interpretation**.
 
-[![Survey](https://img.shields.io/badge/Type-Living%20Survey-blue)](https://github.com/Jiandu-Future/Jiandu-Survey) [![References](https://img.shields.io/badge/References-75-green)](#paper-index-75-references) [![Datasets](https://img.shields.io/badge/Resources-Datasets%20%26%20Benchmarks-orange)](#jiandu-datasets-and-benchmarks)
+[![Survey](https://img.shields.io/badge/Type-Living%20Survey-blue)](https://github.com/Jiandu-Future/Jiandu-Survey)
+[![Datasets](https://img.shields.io/badge/Resources-Datasets%20%26%20Benchmarks-orange)](#jiandu-datasets-and-benchmarks)
+[![References](https://img.shields.io/badge/References-86-informational)](#paper-index-86-references)
+[![Verified](https://img.shields.io/badge/Resource%20check-2026--09--20-success)](#update-history)
 
-This repository accompanies the Review **“Computational Heritage of Ancient Chinese Bamboo and Wooden Slips from Preservation to Intelligent Interpretation.”** It curates online scholarly resources, datasets, code, representative publications, and methodological developments relevant to the computational study of Jiandu.
+This repository accompanies the Review **“Computational Heritage of Ancient Chinese Bamboo and Wooden Slips from Preservation to Intelligent Interpretation.”** It curates scholarly platforms, datasets, code, representative publications, and methodological resources relevant to the computational study of *Jiandu*.
 
-The repository follows the living-resource model used by **OBI-Survey**, while adopting a Jiandu-specific **heritage-centred taxonomy**. The Review treats Jiandu not as a flat collection of character images, but as multiscale material–textual heritage in which physical condition, digital observation, written forms, slip structure, manuscript organization, and scholarly meaning remain linked.
+The revised Review organizes the field across **seven evidence scales**—**material, surface, character, fragment, slip, manuscript, and meaning**—and emphasizes **heritage fidelity, dual provenance, uncertainty, evidential sufficiency, and expert validation**.
 
 **Project page:** https://github.com/Jiandu-Future/Jiandu-Survey  
 **Paper:** journal citation to be updated after publication  
-**Reference coverage:** 75 unique references from the current Review bibliography  
-**Last resource verification:** 2026-08-09
+**Literature corpus:** 80 analytical sources + 6 contextual methodological references = **86 references**  
+**Last literature/resource verification:** **2026-09-20**
 
 ---
 
 ## Update History
 
-- **2026-08-09** — Rebuilt the repository index from the latest 75-reference, five-figure Review manuscript.
+- **2026-09-21** — Synchronized the repository structure with the revised Review: seven evidence scales, five provenance-aware information states, the heritage-fidelity checklist, and source-level corpus coding.
+- **2026-09-20** — Updated the literature and online-resource checks to 20 September 2026; expanded the bibliography from 75 to **86 references** and updated dataset/benchmark access information.
+- **2026-08-10** — Added a task-oriented Jiandu dataset and benchmark catalogue.
 - **2026-08-09** — Expanded the Online Resource section with Jiandu-specific data platforms, scholarly databases, rejoining resources, research centres, museums, and comparative textual/palaeographic resources.
-- **2026-08-09** — Added a task-oriented Jiandu dataset and benchmark catalogue.
-- **2026-08-09** — Added a heritage-centred chronological index covering all **75 references** used in the Review.
-- **2026-08-09** — Added five conceptual figures corresponding to the current manuscript.
+- **2026-08-09** — Rebuilt the repository index from the then-current 75-reference, five-figure Review manuscript.
 
-> New datasets, papers, digital collections, code releases, corrected metadata, and stable project links will be added continuously.
+> New datasets, papers, digital collections, code releases, corrected metadata, and stable project links will be added continuously. Access states are time-sensitive and should always be checked against the original provider.
 
 ---
 
-## Contributions
+## Inclusion principles
 
-Pull requests and issues are welcome. In particular, contributions are encouraged for:
+Resources are prioritized when they directly study ancient Chinese bamboo or wooden slips. Closely related work on ancient Chinese manuscripts, historical documents, oracle-bone inscriptions, or general heritage computing is included only when it supplies a method, benchmark, infrastructure principle, or evaluation framework that is directly relevant to Jiandu computational heritage.
 
-- newly released Jiandu datasets, benchmarks, or code repositories;
-- newly digitized excavated collections or museum resources;
-- stable links to transcription, palaeographic, rejoining, or manuscript databases;
-- newly published Jiandu-related computational studies;
-- corrections to metadata, access status, broken links, or dataset statistics;
-- resources that connect material condition, imaging modality, textual annotation, slip relationships, and manuscript structure.
+The revised Review distinguishes:
 
-For a **dataset contribution**, please provide: dataset name, heritage source, modality, scale, annotation type, supported task(s), paper, access link, and licence/access conditions.
+- **80 analytical sources** used in the qualitative synthesis and source-level evidence-scale/carrier characterization.
+- **6 contextual methodological references** from architectural and built-heritage research, used only to position multilevel, integrated, and evidence-constrained reasoning.
 
-For a **paper contribution**, please provide: title, authors, venue/year, DOI or stable URL, code/data link if available, and a one-line description of the contribution.
-
-### Inclusion principles
-
-Resources are prioritized when they directly study ancient Chinese bamboo or wooden slips. Closely related work on ancient Chinese manuscripts, historical documents, oracle-bone inscriptions, or general heritage computing is included only when it supplies a method, benchmark, infrastructure principle, or evaluation framework that is directly transferable to Jiandu. Such entries are marked **Related / transferable** in the paper index.
+Adjacent resources are marked **Related / transferable** or **Contextual methodological reference** rather than treated as direct evidence of Jiandu capability.
 
 ---
 
@@ -55,7 +50,7 @@ The final journal citation will be added after publication. For pre-publication 
 ```bibtex
 @article{xu2026computationaljiandu,
   title   = {Computational Heritage of Ancient Chinese Bamboo and Wooden Slips from Preservation to Intelligent Interpretation},
-  author  = {Xu, Cheng and Liu, Zhen and Zhang, Cheng and Yuan, Jiazheng and Chen, Lu and Zhou, Hua and Yang, Yu},
+  author  = {Xu, Cheng and Liu, Zhen and Zhang, Cheng and Yuan, Jiazheng and Chen, Lu and Yang, Yu and Zhou, Hua and Zhang, Ziying},
   year    = {2026},
   note    = {Review manuscript}
 }
@@ -66,7 +61,7 @@ Repository citation:
 ```bibtex
 @misc{jiandu_survey_2026,
   title        = {Jiandu-Survey: Computational Heritage of Ancient Chinese Bamboo and Wooden Slips},
-  author       = {Xu, Cheng and Liu, Zhen and Zhang, Cheng and Yuan, Jiazheng and Chen, Lu and Zhou, Hua and Yang, Yu},
+  author       = {Xu, Cheng and Liu, Zhen and Zhang, Cheng and Yuan, Jiazheng and Chen, Lu and Yang, Yu and Zhou, Hua and Zhang, Ziying},
   year         = {2026},
   howpublished = {GitHub},
   url          = {https://github.com/Jiandu-Future/Jiandu-Survey}
@@ -78,6 +73,11 @@ Repository citation:
 ## Table of Contents
 
 - [Conceptual Framework](#conceptual-framework)
+  - [Seven evidence scales](#seven-evidence-scales)
+  - [Evidence corpus at a glance](#evidence-corpus-at-a-glance)
+  - [Five provenance-aware information states](#five-provenance-aware-information-states)
+  - [Heritage-fidelity reporting checklist](#heritage-fidelity-reporting-checklist)
+  - [Figures 1–5](#figures-15)
 - [Online Resource](#online-resource)
   - [Core Jiandu Data and Scholarly Platforms](#core-jiandu-data-and-scholarly-platforms)
   - [Rejoining and Manuscript Reconstruction Resources](#rejoining-and-manuscript-reconstruction-resources)
@@ -91,7 +91,7 @@ Repository citation:
   - [Multimodal and 3D Data](#multimodal-and-3d-data)
   - [Scribe Analysis](#scribe-analysis)
   - [Fragment Rejoining](#fragment-rejoining)
-- [Paper Index: 75 References](#paper-index-75-references)
+- [Paper Index: 86 References](#paper-index-86-references)
   - [Related surveys and field overviews](#related-surveys-and-field-overviews)
   - [Foundational Jiandu and manuscript studies](#foundational-jiandu-and-manuscript-studies)
   - [Conservation, deterioration and acquisition](#conservation-deterioration-and-acquisition)
@@ -103,57 +103,120 @@ Repository citation:
   - [Fragment rejoining, scribe analysis and manuscript reconstruction](#fragment-rejoining-scribe-analysis-and-manuscript-reconstruction)
   - [Digital editions, knowledge, language models and agents](#digital-editions-knowledge-language-models-and-agents)
   - [FAIR data, provenance and trustworthy heritage AI](#fair-data-provenance-and-trustworthy-heritage-ai)
+  - [September 2026 analytical additions](#september-2026-analytical-additions)
+  - [Contextual multilevel heritage frameworks](#contextual-multilevel-heritage-frameworks)
 - [Research Gaps and Priorities](#research-gaps-and-priorities)
 - [Repository Structure](#repository-structure)
 - [Resource and Rights Notes](#resource-and-rights-notes)
+- [Data Availability](#data-availability)
 - [Maintainers](#maintainers)
 
 ---
 
 # Conceptual Framework
 
-The Review organizes Jiandu computational heritage across six interconnected scales:
+## Seven evidence scales
+
+The Review organizes Jiandu computational heritage across **seven interconnected evidence scales**:
 
 ```text
-Material → Surface → Character → Slip → Manuscript → Meaning
+Material → Surface → Character → Fragment → Slip → Manuscript → Meaning
 ```
 
-| Scale | Core evidence | Typical computational questions |
+| Scale | Core evidence | Typical computational / scholarly questions |
 |---|---|---|
-| **Material** | bamboo/wood composition, deterioration, moisture, fractures, conservation state | What survives, and what can be safely documented? |
+| **Material** | bamboo/wood composition, deterioration, moisture, conservation state | What survives, and what can be safely documented? |
 | **Surface** | ink, stains, cracks, texture, curvature, spectral response | Which traces are observable under different modalities? |
 | **Character** | strokes, components, variants, damaged glyphs | Detection, segmentation, restoration, recognition |
-| **Slip** | dimensions, orientation, handwriting, fracture geometry, verso traces | Alignment, grouping, scribe analysis |
-| **Manuscript** | fragment relations, binding evidence, order, textual continuity | Rejoining, sequencing, manuscript reconstruction |
-| **Meaning** | transcription, linguistic annotation, parallels, historical context | Retrieval, knowledge integration, interpretation |
+| **Fragment** | edges, fractures, texture, morphology, refit compatibility | Which fragments may physically belong together? |
+| **Slip** | dimensions, orientation, handwriting, verso traces, local sequence | Which slips may be grouped, aligned, or attributed to the same hand? |
+| **Manuscript** | binding evidence, fragment/slip relations, order, textual continuity | How can candidate manuscript structure be reconstructed? |
+| **Meaning** | transcription, linguistic annotation, parallels, historical context | How should retrieved evidence and interpretation hypotheses be evaluated? |
 
-The six scales are summarized into four analytical layers: **material condition → digital evidence → textual structure → scholarly interpretation**. Across all layers, the Review treats **provenance, uncertainty, interoperability, and expert validation** as cross-cutting requirements.
+The seven scales are summarized into four analytical layers:
 
-## Figure 1. Computational heritage framework
+**material condition → digital evidence → textual structure → scholarly interpretation**
 
-<p align="center"><img src="image/Figure1.png" width="95%" alt="Conceptual framework of computational heritage for ancient Chinese bamboo and wooden slips"></p>
+Across all layers, the Review foregrounds **dual provenance (archaeological + computational), evidential sufficiency, uncertainty, cross-scale consistency, expert validation, transparency, and conservation ethics**.
 
-## Figure 2. From material condition to computational recovery
+## Evidence corpus at a glance
 
-<p align="center"><img src="image/Figure2.png" width="95%" alt="From material condition to computational recovery"></p>
+The revised Review contains **86 references in total**. Of these, **80 sources** form the analytical corpus; **6 architectural/built-heritage studies** are retained only as contextual methodological references.
 
-## Figure 3. Digital documentation and computational recovery workflow
+### Primary evidence-scale coding of the 80-source analytical corpus
 
-<p align="center"><img src="image/Figure3.png" width="95%" alt="Digital documentation and computational recovery workflow"></p>
+| Primary scale | Sources | Share |
+|---|---:|---:|
+| Material | 6 | 7.5% |
+| Surface | 14 | 17.5% |
+| Character | 27 | 33.8% |
+| Fragment | 4 | 5.0% |
+| Slip | 1 | 1.3% |
+| Manuscript | 9 | 11.3% |
+| Meaning | 19 | 23.8% |
+| **Total** | **80** | **100%** |
 
-## Figure 4. Evolution of Jiandu computational heritage
+### Carrier coverage
 
-<p align="center"><img src="image/Figure4.png" width="95%" alt="Evolution of Jiandu computational heritage"></p>
+| Carrier category | Sources |
+|---|---:|
+| Bamboo-centred | 36 |
+| Wood-specific | 1 |
+| Explicitly both bamboo and wood | 5 |
+| Jiandu/manuscript; carrier unspecified or inseparable | 15 |
+| Adjacent/non-Jiandu evidence | 23 |
+| **Total** | **80** |
 
-## Figure 5. Provenance-aware trustworthy computational heritage
+These counts describe the **selected narrative-review corpus**, not field-wide publication frequencies.
 
-<p align="center"><img src="image/Figure5.png" width="95%" alt="Provenance-aware trustworthy computational heritage framework"></p>
+## Five provenance-aware information states
 
----
+The framework distinguishes five information states within a digital heritage workflow:
+
+| State | Meaning | Typical examples |
+|---|---|---|
+| **Observed evidence** | Directly captured from the physical object or documented source | visible/IR image, CT observation, measured geometry |
+| **Recovered evidence** | Existing evidence made more accessible without adding unsupported missing content | registration, enhancement, denoising, segmentation |
+| **Inferred evidence** | A model- or scholar-derived relation or identity supported by observations | character identity, candidate fragment match, slip sequence |
+| **Retrieved evidence** | External evidence brought into the workflow from corpora or scholarship | editions, dictionaries, parallel texts, archaeological records, knowledge graphs |
+| **Generated hypotheses** | New candidate content or interpretation produced by a generative or reasoning system | alternative readings, contextual interpretation, historical hypothesis |
+
+> The five states are **provenance categories, not sequential stages or confidence levels**. A workflow may contain several states at once, and expert acceptance does not convert generated content into observed evidence.
+
+A minimum computational provenance record should retain:
+
+`Output ID · Parent/Source ID · State label · Operation/Model version · Uncertainty/Validation`
+
+## Heritage-fidelity reporting checklist
+
+The Review proposes eight auditable reporting dimensions:
+
+| ID | Dimension | Minimum reporting expectation |
+|---|---|---|
+| **HF1** | Archaeological provenance | Document findspot/excavation/assemblage context as documented, partial, uncertain, or unavailable |
+| **HF2** | Computational provenance & traceability | Preserve source identifiers, parent–child links, and auditable processing chains |
+| **HF3** | Carrier & conservation condition | Record bamboo/wood status, deterioration, deformation, treatment, moisture, cracking, staining, etc. |
+| **HF4** | Acquisition metadata | Report modality, device/settings where available, illumination, resolution, calibration, registration, and orientation |
+| **HF5** | Transformation & evaluation history | Record preprocessing, restoration/reconstruction steps, model/version, parameters, and evaluation partitions |
+| **HF6** | Structural consistency | Check surviving or independently documented stroke, geometric, fracture, spatial, or manuscript constraints |
+| **HF7** | Uncertainty & evidence state | Mark uncertain regions/candidates and identify outputs as observed, recovered, inferred, retrieved, or generated |
+| **HF8** | Evidence linkage & expert assessment | Link higher-level claims to supporting evidence and document specialist-review procedures |
+
+These dimensions **complement** PSNR, SSIM, recognition accuracy, and other task-specific metrics. They are not a universal composite score or authenticity certification.
+
+## Figures 1–5
+
+| Figure | Purpose |
+|---|---|
+| **Figure 1** | Multiscale evidence framework: material → meaning, with cross-scale evidential constraints |
+| **Figure 2** | Material condition → observable manifestation → digital acquisition → computational recovery |
+| **Figure 3** | Visual fidelity, structural fidelity, and heritage fidelity |
+| **Figure 4** | Expansion of evidential responsibility from expert-led research to knowledge-augmented and agentic workflows |
+| **Figure 5** | Provenance-aware information states, expert assessment, and the trustworthy computational heritage record |
 
 # Online Resource
 
-> Access conditions change over time. The status below was checked on **2026-08-09**. Always follow the original institution's licence, copyright, registration, download, and citation requirements.
+> Access conditions change over time. The status below was checked on **2026-09-20**. Always follow the original institution's licence, copyright, registration, download, and citation requirements.
 
 ## Core Jiandu Data and Scholarly Platforms
 
@@ -272,9 +335,9 @@ Access labels:
 
 ---
 
-# Paper Index: 75 References
+# Paper Index: 86 References
 
-This section reorganizes **all 75 unique references in the current Review bibliography** into a heritage-centred, chronological index. The `Scope` column distinguishes Jiandu-specific work from foundational manuscript scholarship and methodologically transferable studies from neighbouring domains.
+> **Corpus accounting.** The revised Review contains **86 references in total**: **80 analytical sources** used in the Jiandu/ancient-document evidence-scale and carrier characterization, plus **6 contextual methodological references** from architectural and built-heritage research. Repository index numbers below are curation IDs and do not reproduce manuscript citation numbering.
 
 
 ## Related surveys and field overviews
@@ -338,7 +401,7 @@ This section reorganizes **all 75 unique references in the current Review biblio
 | 30 | Application of Unsharp Masking to Character Enhancement in Jiandu Images | Microcomputer Information (3): 241–242 (2008) | Unsharp-mask character enhancement | Jiandu-specific |
 | 31 | Application of the Canny Edge Detector to Jiandu Character Restoration | Microcomputer Information (9): 241–242, 250 (2008) | Canny-based damaged-character restoration | Jiandu-specific |
 | 32 | Application of Multiscale Retinex to Jiandu Image Enhancement | Computer Science 36(3): 288–290 (2009) | Multiscale Retinex enhancement | Jiandu-specific |
-| 33 | [Character segmentation and restoration of Qin-Han bamboo slips using local auto-focus thresholding method](https://doi.org/10.1007/s11042-022-11988-z) | Multimedia Tools and Applications 81(6): 8199–8214 (2022) | Adaptive thresholding, segmentation and restoration | Jiandu-specific |
+| 33 | [Character segmentation and restoration of Qin-Han bamboo slips using local auto-focus thresholding method](https://doi.org/10.1007/s11042-022-11988-z) | Multimedia Tools and Applications 81(6): 8199–8213 (2022) | Adaptive thresholding, segmentation and restoration | Jiandu-specific |
 | 34 | [U-Net Architecture for Ancient Handwritten Chinese Character Detection in Han Dynasty Wooden Slips](https://doi.org/10.1587/transfun.2023SMP0007) | IEICE Transactions on Fundamentals of Electronics, Communications and Computer Sciences E106.A(11): 1406–1415 (2023) | U-Net detection on Han wooden slips | Jiandu-specific |
 | 35 | [Method for Qin Bamboo Slip Text Detection Based on an Enhanced DBNet Model](https://doi.org/10.1109/AIIM64537.2024.10934214) | 2024 4th International Symposium on Artificial Intelligence and Intelligent Manufacturing: 952–958 (2024) | Enhanced DBNet for Qin-slip text detection | Jiandu-specific |
 | 36 | [A feature-enhanced text detection model for Jiandu manuscripts](https://doi.org/10.1038/s40494-025-01807-7) | npj Heritage Science 13: 355 (2025) | Feature-enhanced Jiandu text detection | Jiandu-specific |
@@ -350,7 +413,7 @@ This section reorganizes **all 75 unique references in the current Review biblio
 
 | # | Paper | Venue & Year | Focus | Scope |
 |---:|---|---|---|---|
-| 40 | Research on the Qin Bamboo Slip Character Images Inpainting Algorithm Based on the Context Encoder Model | Proceedings of the 4th International Conference on Computer Graphics, Image, and Virtualization: 1328801 (2024) | Context-encoder character inpainting | Jiandu-specific |
+| 40 | Research on the Qin Bamboo Slip Character Images Inpainting Algorithm Based on the Context Encoder Model | Proceedings of the 4th International Conference on Computer Graphics, Image, and Virtualization: 132880V (2024) | Context-encoder character inpainting | Jiandu-specific |
 | 41 | [Character restoration of Qin and Han bamboo slips based on improved conditional generative adversarial networks](https://doi.org/10.1038/s40494-025-01870-0) | npj Heritage Science 13: 278 (2025) | Conditional-GAN character restoration | Jiandu-specific |
 | 42 | [Ink Enhancement for Ancient Bamboo Manuscripts Using Iterative Restoration-Degradation Adversarial Learning](https://bmvc2025.bmva.org/proceedings/988/) | Proceedings of the 36th British Machine Vision Conference (2025) | Self-supervised faded-ink enhancement | Jiandu-specific |
 | 43 | [Restoration of ancient Japanese manuscripts via the diffusion denoising restoration model and color space-based masking](https://doi.org/10.1038/s40494-025-02214-8) | npj Heritage Science 13: 634 (2025) | Transferable diffusion restoration for historical manuscripts | Related / transferable |
@@ -397,7 +460,7 @@ This section reorganizes **all 75 unique references in the current Review biblio
 | 69 | [ACSE: An Ancient Character Semantic-Aware Embedding for Large Language Models](https://doi.org/10.18653/v1/2026.findings-acl.437) | Findings of the Association for Computational Linguistics: ACL 2026: 9000–9012 (2026) | Ancient-character semantic-aware LLM embedding | Related / transferable |
 | 70 | [AncientBench: Towards Comprehensive Evaluation on Excavated and Transmitted Chinese Corpora](https://doi.org/10.1609/aaai.v40i41.40823) | Proceedings of the AAAI Conference on Artificial Intelligence 40(41): 35167–35175 (2026) | Excavated/transmitted Chinese LLM benchmark | Related / transferable |
 | 71 | [Designing Narrative Reconstruction from Bamboo Slips: A RAG-Agent Approach for Cultural Scene Generation](https://doi.org/10.21606/drs.2026.1738) | DRS2026: Design Research Society International Conference (2026) | Liye RAG-Agent for grounded narrative reconstruction | Jiandu-specific |
-| 72 | [EpiAgent: An Agent-Centric System for Ancient Inscription Restoration](https://openaccess.thecvf.com/content/CVPR2026/html/Zhu_EpiAgent_An_Agent-Centric_System_for_Ancient_Inscription_Restoration_CVPR_2026_paper.html) | Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition: 38722–38731 (2026) | Agent-centric ancient-inscription restoration | Related / transferable |
+| 72 | [EpiAgent: An Agent-Centric System for Ancient Inscription Restoration](https://openaccess.thecvf.com/content/CVPR2026/html/Zhu_EpiAgent_An_Agent-Centric_System_for_Ancient_Inscription_Restoration_CVPR_2026_paper.html) | Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition: 39304–39313 (2026) | Agent-centric ancient-inscription restoration | Related / transferable |
 
 ## FAIR data, provenance and trustworthy heritage AI
 
@@ -407,9 +470,34 @@ This section reorganizes **all 75 unique references in the current Review biblio
 | 74 | [Interoperable provenance data for heritage crime monitoring of architectural elements](https://doi.org/10.1038/s40494-025-01919-0) | npj Heritage Science 14: 4 (2026) | Interoperable provenance for heritage records | Related / transferable |
 | 75 | [Towards trustworthy AI in cultural heritage](https://doi.org/10.1038/s40494-026-02403-z) | npj Heritage Science 14: 131 (2026) | Trustworthy and explainable AI in cultural heritage | Related / transferable |
 
-**Indexed references: 75 / 75.**
 
 ---
+
+
+## September 2026 analytical additions
+
+These five sources were added during the September 2026 update and are included in the **80-source analytical corpus**.
+
+| Index | Paper | Venue & Year | Focus | Scope |
+|---:|---|---|---|---|
+| 76 | [Corpus scale reassembly of fragmented bamboo slips using excavation context and latent slip properties](https://doi.org/10.1038/s40494-026-02993-8) | *npj Heritage Science* (2026; advance online) | Corpus-scale reassembly integrating excavation context and latent slip properties | Jiandu-specific |
+| 77 | [ICSGDiff: A Multimodal Structure-Aware Diffusion Network for Restoring Ancient Bamboo Slips](https://doi.org/10.1145/3805622.3810631) | International Conference on Multimedia Retrieval: 2524–2532 (2026) | Structure-aware multimodal diffusion restoration | Jiandu-specific |
+| 78 | [LWTformer: A Detail-Aware, Learnable Wavelet-Transformer for Ancient Chinese Character Image Restoration](https://openaccess.thecvf.com/content/CVPR2026F/html/Ruan_LWTformer_A_Detail-Aware_Learnable_Wavelet-Transformer_for_Ancient_Chinese_Character_Image_CVPRF_2026_paper.html) | CVPR 2026 Findings: 4971–4981 (2026) | Wavelet-transformer restoration tested on oracle-bone and Warring States bamboo-slip images | Related / transferable |
+| 79 | [A workflow for deciphering a deeply weathered Chibi cliff inscription](https://doi.org/10.1038/s40494-026-02990-x) | *npj Heritage Science* (2026; advance online) | Evidence-sensitive multimodal decipherment workflow for degraded inscriptions | Related / transferable |
+| 80 | [An interpretable parametric representation and open dataset for oracle bone script: adaptive Arc segmentation and SVG resource](https://doi.org/10.1038/s40494-026-02995-6) | *npj Heritage Science* (2026; advance online) | Interpretable structured glyph representation and open data | Related / transferable |
+
+## Contextual multilevel heritage frameworks
+
+The following six sources are retained as **contextual methodological references**. They motivate multilevel, integrated, risk-oriented, or evidence-constrained reasoning in heritage research, but they are **excluded from the 80-source Jiandu-specific evidence-scale and carrier distributions**.
+
+| Index | Paper | Venue & Year | Methodological relevance |
+|---:|---|---|---|
+| 81 | [An evidence-constrained method for LOD reachability assessment in the virtual reconstruction of historic architectural complexes](https://doi.org/10.1038/s40494-026-02953-2) | *npj Heritage Science* (2026; advance online) | Links justified reconstruction detail to the amount and quality of supporting evidence |
+| 82 | [Multi-level seismic evaluations of existing masonry churches: A comparison between a Romanian and an Italian case study](https://doi.org/10.1016/j.istruc.2026.111850) | *Structures* 88: 111850 (2026) | Multi-level assessment matched to available evidence and investigation depth |
+| 83 | [Integrated procedures for the seismic response assessment of existing masonry constructions](https://doi.org/10.1016/j.prostr.2025.12.190) | *Procedia Structural Integrity* 78: 1490–1496 (2026) | Integrated structural-assessment procedures |
+| 84 | [Multilevel framework for risk assessment of cultural heritage: application to a case study](https://doi.org/10.1016/j.prostr.2025.12.070) | *Procedia Structural Integrity* 78: 544–551 (2026) | Multilevel cultural-heritage risk assessment |
+| 85 | [Integrated Procedures for Knowledge and Monitoring of Existing Buildings: Application to Case Studies](https://doi.org/10.7712/120125.12615.25354) | COMPDYN 2025: 2858–2870 (2025) | Integration of historical knowledge, survey, and monitoring |
+| 86 | [GENESIS Project: Seismic Risk Management for the Touristic Valorisation of the Historical Centers of Southern Italy](https://doi.org/10.7712/120125.12612.25155) | COMPDYN 2025: 2821–2834 (2025) | Risk-oriented, integrated management of historic built heritage |
 
 # Research Gaps and Priorities
 
@@ -441,8 +529,11 @@ Jiandu-Survey/
 │   ├── Figure4.png
 │   └── Figure5.png
 │
-└── bibliography/
-    └── sn-bibliography.bib
+├── bibliography/
+│   └── sn-bibliography.bib
+│
+└── supplementary/
+    └── Supplementary_Table_S1_80_source_coding.xlsx
 ```
 
 If the resource index grows substantially, the dataset and paper tables can later be split into `resources/` and `papers/` subpages while keeping this README as the main navigation page.
@@ -461,9 +552,13 @@ If the resource index grows substantially, the dataset and paper tables can late
 
 # Data Availability
 
-No new datasets were generated in the accompanying Review. The datasets, publications, digital resources, code repositories, and project links discussed in the article are curated and continuously updated through this repository:
+No new datasets were generated in the accompanying Review. This repository serves as the living companion resource for the article and maintains the literature catalogue, dataset links, digital resources, code repositories, and project links discussed in the Review.
 
-**https://github.com/Jiandu-Future/Jiandu-Survey**
+**Project page:** https://github.com/Jiandu-Future/Jiandu-Survey
+
+The source-level coding used for the Review's descriptive evidence-scale and carrier analysis is provided as **Supplementary Table S1** in the manuscript submission package. When uploaded to this repository, it should be placed at:
+
+`./supplementary/Supplementary_Table_S1_80_source_coding.xlsx`
 
 ---
 
@@ -472,15 +567,5 @@ No new datasets were generated in the accompanying Review. The datasets, publica
 **Cheng Xu**  
 Beijing Key Laboratory of Cultural Heritage Agent, Beijing Union University  
 Email: `xucheng@buu.edu.cn`
-
-**Jiazheng Yuan**  
-Center for Oracle Bone Studies, Capital Normal University  
-Email: `jzyuan@cnu.edu.cn`
-
----
-
-# Acknowledgement
-
-This repository builds on the work of Jiandu scholars, palaeographers, archaeologists, conservators, museum professionals, digital-humanities researchers, and computer-science researchers. It is intended to make the field easier to navigate while preserving the distinction between material observation, computational inference, and scholarly interpretation.
 
 <p align="center"><b>Jiandu-Survey</b><br>Preservation · Documentation · Recovery · Recognition · Reconstruction · Interpretation</p>
