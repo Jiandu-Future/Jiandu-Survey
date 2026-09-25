@@ -20,6 +20,7 @@ The revised Review organizes the field across **seven evidence scales**—**mate
 
 ## Update History
 
+- **2026-09-24** — Added the source-level coding workbook for the 80-source analytical corpus to the companion repository and removed supplementary-table naming from the repository structure.
 - **2026-09-21** — Synchronized the repository structure with the revised Review: seven evidence scales, five provenance-aware information states, the heritage-fidelity checklist, and source-level corpus coding.
 - **2026-09-20** — Updated the literature and online-resource checks to 20 September 2026; expanded the bibliography from 75 to **86 references** and updated dataset/benchmark access information.
 - **2026-08-10** — Added a task-oriented Jiandu dataset and benchmark catalogue.
@@ -75,6 +76,7 @@ Repository citation:
 - [Conceptual Framework](#conceptual-framework)
   - [Seven evidence scales](#seven-evidence-scales)
   - [Evidence corpus at a glance](#evidence-corpus-at-a-glance)
+  - [Source-level corpus coding](#source-level-corpus-coding)
   - [Five provenance-aware information states](#five-provenance-aware-information-states)
   - [Heritage-fidelity reporting checklist](#heritage-fidelity-reporting-checklist)
   - [Figures 1–5](#figures-15)
@@ -168,6 +170,16 @@ The revised Review contains **86 references in total**. Of these, **80 sources**
 | **Total** | **80** |
 
 These counts describe the **selected narrative-review corpus**, not field-wide publication frequencies.
+
+## Source-level corpus coding
+
+The source-level coding underlying the descriptive evidence-scale and carrier analysis is provided directly through this companion repository:
+
+**[Download the source-level coding workbook](./data/source_level_coding_80_sources.xlsx)**
+
+The workbook contains the **80-source analytical corpus** and records each source's bibliographic identity, relationship to Jiandu, primary evidence scale, carrier coverage, analytical role/coding rationale, and DOI or stable URL. A separate sheet records the **6 contextual methodological references** that are retained in the Review bibliography but excluded from the 80-source evidence-scale and carrier distributions.
+
+The workbook is a **companion research resource**, not a separately numbered supplementary table. The repository version may be updated if bibliographic metadata, access links, or coding notes require correction.
 
 ## Five provenance-aware information states
 
@@ -532,8 +544,8 @@ Jiandu-Survey/
 ├── bibliography/
 │   └── sn-bibliography.bib
 │
-└── supplementary/
-    └── Supplementary_Table_S1_80_source_coding.xlsx
+└── data/
+    └── source_level_coding_80_sources.xlsx
 ```
 
 If the resource index grows substantially, the dataset and paper tables can later be split into `resources/` and `papers/` subpages while keeping this README as the main navigation page.
@@ -552,13 +564,15 @@ If the resource index grows substantially, the dataset and paper tables can late
 
 # Data Availability
 
-No new datasets were generated in the accompanying Review. This repository serves as the living companion resource for the article and maintains the literature catalogue, dataset links, digital resources, code repositories, and project links discussed in the Review.
+No new datasets were generated in the accompanying Review. This repository serves as the living companion resource for the article and maintains the literature catalogue, dataset links, digital resources, code repositories, project links, and source-level literature coding discussed in the Review.
 
 **Project page:** https://github.com/Jiandu-Future/Jiandu-Survey
 
-The source-level coding used for the Review's descriptive evidence-scale and carrier analysis is provided as **Supplementary Table S1** in the manuscript submission package. When uploaded to this repository, it should be placed at:
+The source-level coding used for the Review's descriptive evidence-scale and carrier analysis is available here:
 
-`./supplementary/Supplementary_Table_S1_80_source_coding.xlsx`
+**[Source-Level Coding of the 80-Source Analytical Corpus](./data/source_level_coding_80_sources.xlsx)**
+
+Repository path: `./data/source_level_coding_80_sources.xlsx`
 
 ---
 
