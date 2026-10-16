@@ -20,6 +20,7 @@ The revised Review organizes the field across **seven evidence scales**—**mate
 
 ## Update History
 
+- **2026-10-16** — Added a fixed, versioned snapshot of the source-level coding for the 80-source analytical corpus corresponding to the revised Review submission. This snapshot preserves the source classifications, evidence-scale assignments, carrier coding, and related coding fields used in the present Review.
 - **2026-09-24** — Added the source-level coding workbook for the 80-source analytical corpus to the companion repository and removed supplementary-table naming from the repository structure.
 - **2026-09-21** — Synchronized the repository structure with the revised Review: seven evidence scales, five provenance-aware information states, the heritage-fidelity checklist, and source-level corpus coding.
 - **2026-09-20** — Updated the literature and online-resource checks to 20 September 2026; expanded the bibliography from 75 to **86 references** and updated dataset/benchmark access information.
